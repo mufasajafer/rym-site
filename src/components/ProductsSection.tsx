@@ -72,12 +72,8 @@ export default function ProductsSection() {
                   loading="lazy"
                 />
                 <div className="product-card-body">
-                  <p className="product-card-category">{p.category}</p>
-                  <p className="product-card-name">{p.name}</p>
-                  <div className="product-card-footer">
-                    <span className="product-card-price">{p.price}</span>
-                    <span className="product-card-tag">{p.tag}</span>
-                  </div>
+                  <h3 className="product-card-name">{p.name}</h3>
+                  <p className="product-card-price">{p.price}</p>
                 </div>
               </a>
             </article>

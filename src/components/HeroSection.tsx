@@ -12,7 +12,7 @@ export default function HeroSection() {
       {/* Background video — cinematic sunglasses footage from Pexels CDN */}
       <video
         className="hero-video"
-        src="https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4"
+        src="/14883770_3840_2160_30fps.mp4"
         autoPlay
         muted
         loop
@@ -23,28 +23,17 @@ export default function HeroSection() {
       <div className="hero-overlay" aria-hidden="true" />
 
       <div className="hero-content">
-        <span className="eyebrow">New Drop — Weekly Release</span>
         <h1 className="hero-title">
-          See The World<br />Differently.
+          Curated Frames.<br />Dropping Weekly.
         </h1>
-        <p className="hero-sub">
-          Curated and imported sunglasses. Limited quantities, weekly drops — 
-          ordered through WhatsApp, delivered with intention.
-        </p>
+
         <div className="hero-cta">
           <a
-            className="btn btn-primary"
+            className="btn btn-outline-white"
             href="#products"
             onClick={(e) => handleScroll(e, '#products')}
           >
-            Shop Now
-          </a>
-          <a
-            className="btn btn-outline-white"
-            href="#contact"
-            onClick={(e) => handleScroll(e, '#contact')}
-          >
-            Get In Touch
+            Explore The Drop
           </a>
         </div>
       </div>
