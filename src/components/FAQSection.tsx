@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
   {
     q: 'When does new stock drop?',
-    a: 'New frames are restocked every Monday. Each drop is a curated edit — new and imported, not preloved.',
+    a: 'New frames are restocked every Friday. Each drop is a curated edit — new and imported, not preloved.',
   },
   {
     q: 'When can I place an order?',
@@ -14,18 +14,7 @@ const faqs = [
     q: 'How do I order?',
     a: 'Through our WhatsApp channel or Instagram DM. We keep it personal and fast — no checkout clutter.',
   },
-  {
-    q: 'Are the frames original and imported?',
-    a: 'Yes, every single piece. All stock is new and imported. We do not sell preloved or replica frames.',
-  },
-  {
-    q: 'What happens if a frame sells out?',
-    a: 'Once a frame is gone, it may return in a future drop — or not. Each release is intentionally limited to keep things fresh.',
-  },
-  {
-    q: 'Do you offer returns or exchanges?',
-    a: 'Reach us via WhatsApp within 24 hours of delivery if there is an issue. We handle things directly and fairly.',
-  },
+
 ];
 
 export default function FAQSection() {

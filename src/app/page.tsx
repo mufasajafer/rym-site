@@ -27,7 +27,7 @@ export default function HomePage() {
             </p>
             <div style={{ display: 'flex', gap: '20px' }}>
               <a
-                href="https://instagram.com/"
+                href="https://www.instagram.com/rym.shades/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontSize: '0.75rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--muted)' }}
@@ -35,7 +35,7 @@ export default function HomePage() {
                 Instagram
               </a>
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/918431717975"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontSize: '0.75rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--muted)' }}

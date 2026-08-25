@@ -3,21 +3,20 @@ import { FormEvent, useState } from 'react';
 
 const info = [
   { key: 'Order Window', val: 'Saturday & Sunday' },
-  { key: 'Restock Day', val: 'Every Monday' },
-  { key: 'Stock Type', val: 'New & Imported — never preloved' },
+  { key: 'Restock Day', val: 'Every Friday' },
+  { key: 'Stock Type', val: 'New & Imported' },
   { key: 'How to Order', val: 'WhatsApp or Instagram DM' },
 ];
 
 export default function ContactSection() {
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    const text = `Hi RYM!\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+    const text = `Hi RYM!\n\nName: ${name}\n\nMessage:\n${message}`;
     window.open(
-      `https://wa.me/919999999999?text=${encodeURIComponent(text)}`,
+      `https://wa.me/918431717975?text=${encodeURIComponent(text)}`,
       '_blank',
       'noopener,noreferrer'
     );
@@ -48,19 +47,7 @@ export default function ContactSection() {
                   placeholder="Your name"
                 />
               </div>
-              <div>
-                <label className="contact-label" htmlFor="c-email">Email</label>
-                <input
-                  id="c-email"
-                  className="contact-input"
-                  type="email"
-                  autoComplete="email"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="your@email.com"
-                />
-              </div>
+
               <div>
                 <label className="contact-label" htmlFor="c-message">Message</label>
                 <textarea
@@ -94,7 +81,7 @@ export default function ContactSection() {
             <div className="contact-social-row">
               <a
                 className="btn btn-outline-dark"
-                href="https://wa.me/919999999999"
+                href="https://wa.me/918431717975"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -102,7 +89,7 @@ export default function ContactSection() {
               </a>
               <a
                 className="btn btn-outline-dark"
-                href="https://instagram.com/"
+                href="https://www.instagram.com/rym.shades/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
