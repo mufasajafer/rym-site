@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import LoadingOverlay from '@/components/LoadingOverlay';
 
 export const metadata: Metadata = {
   title: 'RYM — See The World Differently',
@@ -19,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <LoadingOverlay>{children}</LoadingOverlay>
+      </body>
     </html>
   );
 }
